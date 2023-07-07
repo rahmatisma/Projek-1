@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link bosstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- link font awelsome  -->
+    <script src="https://kit.fontawesome.com/90ac0be598.js" crossorigin="anonymous"></script>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style_theaters.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="/Lebah ganteng.webp" alt="Bootstrap" width="80" height="50">
+            </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="/index.html">Now Playing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline" href="/Page Upcoming/Upcoming.html">Upcoming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link hover-underline active" href="/Page theater/Theaters.html">Theaters</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Info
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/Page promo/page_promo.html">Promo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Page News/page_berita.html">News</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- about us -->
+        <div class="collapse navbar-collapse" style="margin-right: 70px;" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link hover-underline active"
+                        href="/Page Login dan regis user/login_user.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-3" id="nowPlaying">
+        <div class="heading-twenty">
+            <h3>Theaters</h3>
+            <div class="select-twenty">
+                <select class="custom-select" id="cityChanged">
+                    <option>BANDUNG</option>
+                    <option>BEKASI</option>
+                    <option>BOGOR</option>
+                    <option>DENPASAR</option>
+                    <option>DEPOK</option>
+                    <option selected="">JAKARTA</option>
+                    <option>MEDAN</option>
+                    <option>PADANG</option>
+                    <option>SURABAYA</option>
+                    <option>TANGERANG</option>
+                    <option>YOGYAKARTA</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- informasi theaters -->
+        <div class="col-12">
+            <div class="tab-container">
+                <div class="tab-content mt-3">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="spasi-1">
+                                    <a
+                                        href="https://21cineplex.com/theater/bioskop-aeon-mall-tanjung-barat-xxi,520,JKTAETB.htm">
+                                        AEON MALL TANJUNG BARAT XXI
+                                    </a>
+                                </td>
+                                <td class="spasi-2"></td>
+                                <td class="spasi-3">
+                                    (021) 50915953
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td class="spasi">
+                                    <a href="https://21cineplex.com/theater/bioskop-arion-xxi,34,JKTARIO.htm"> ARION XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 475 7658
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-artha-gading-xxi,245,JKTARGA.htm">
+                                        ARTHA GADING XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 4586 4123
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-atrium-xxi,19,JKTATRI.htm">
+                                        ATRIUM XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 386 7830
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-bassura-xxi,403,JKTBASS.htm">
+                                        BASSURA XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 22807229
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-baywalk-pluit-xxi,343,JKTBAPL.htm">
+                                        BAYWALK PLUIT XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 29629621
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-blok-m-square,282,JKTBMSQ.htm">
+                                        BLOK M SQUARE
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 7280 2021
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-blok-m-xxi,35,JKTBLOM.htm">
+                                        BLOK M XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 27082800
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td><a href="https://21cineplex.com/theater/bioskop-cijantung-xxi,134,JKTCIJA.htm">
+                                        CIJANTUNG XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 877 93 446
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-cipinang-xxi,347,JKTCIPI.htm">
+                                        CIPINANG XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 29486938
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-ciplaz-cengkareng-xxi,497,JKTCICE.htm">
+                                        CIPLAZ CENGKARENG XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 54336021
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-one-belpark-xxi,387,JKTONBE.htm">
+                                        ONE BELPARK XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 27653422
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-pgc-xxi,500,JKTPGC.htm">
+                                        PGC XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 22080068
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-pondok-indah-2-xxi,221,JKTPOID.htm">
+                                        PONDOK INDAH 2 XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 75920781
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-puri-xxi,153,JKTPURI.htm">
+                                        PURI XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 582 2285
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-seasons-city-xxi,292,JKTSACI.htm">
+                                        SEASONS CITY XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 6385 3901
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-senayan-city-xxi,244,JKTSECI.htm">
+                                        SENAYAN CITY XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 7278 1221
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-setiabudi-xxi,212,JKTSETI.htm">
+                                        SETIABUDI XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 521 0721
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-st-moritz-xxi,374,JKTSTMO.htm">
+                                        ST. MORITZ XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 29111370
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://21cineplex.com/theater/bioskop-taman-anggrek-xxi,15,JKTANGG.htm">
+                                        TAMAN ANGGREK XXI
+                                    </a>
+                                </td>
+                                <td class="spasi"></td>
+                                <td class="spasi">
+                                    (021) 563 9403
+                                </td>
+                            </tr>
+                        </tbody>
+                        
+                        <tbody>
+                            <tr>
+                                <td colspan="3">
+                                    <hr>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="note container">
+            <p>Last Update:<br><strong>Senin, 12 Juni 2023</strong></p>
+
+            <p>Jadwal tayang dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu.<br>(All schedules are
+                subject
+                to change without notice.)<br>Silahkan pilih kota pada menu drop down untuk melihat. Klik
+                pada
+                nama theater untuk melihat film <br>yang sedang diputar pada theater tersebut</p>
+        </div>
+    </div>
+
+    <!-- script boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

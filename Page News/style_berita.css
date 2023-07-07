@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* body */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-color: #ece5d1;
+    padding-top: 70px;
+}
+
+/* navbar */
+.navbar {
+    background-color: #b7c88e;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    color: #000;
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.container {
+    padding: 50px;
+    background-color: #fdf8e8;
+    border-radius: 10px;
+}
+
+.hover-underline {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline::after {
+    cursor: pointer;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.dropdown-menu :hover {
+    background: #fff;
+    color: #162938;
+    background-color: #b7c88e;
+}
+
+.card .img_1 {
+    width: 500px;
+    height: 345px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .card .img_1 {
+        width: 270px; 
+        height: 200px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .card .img_1 {
+        width: 270px; 
+        height: 210px;
+        padding: 10px;
+    }
+}
